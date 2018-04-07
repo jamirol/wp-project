@@ -1,0 +1,81 @@
+body{
+    background-color: #3d3834;
+    .container{
+        max-width: 1400px;
+        width: 100%;
+        height: 1000px;
+        color: #fff;
+        margin: 0 auto;
+        background-color: #1e1e1e;
+        .contact-header{
+            h1{
+                width: 431px;
+                height: 62px;
+                color: #ffffff;
+                font-family: "Montserrat - Black";
+                font-size: 84px;
+                font-weight: 400;
+                line-height: 66.1px;
+                text-transform: uppercase;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .visit-card{
+                width: 360px;
+                height: 631px;
+                background-color: #bf943e;
+                margin-top: 10%;
+                float: left;
+                h3{
+                    width: 221px;
+                    height: 22px;
+                    color: #ffffff;
+                    font-family: "Montserrat - Black";
+                    font-style: 'Black';
+                    font-size: 30px;
+                    font-weight: 900;
+                    line-height: 66.1px;
+                    text-transform: uppercase;
+                    margin-left: 20%;
+                }
+                .lokalizacje{
+                    padding-top: 16%;
+                    padding-bottom: 7%;
+                }
+                p{
+                    
+                    color: #1e1e1e;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 900;
+                    line-height: 22.02px;
+                    padding-top: 15%;
+                    margin-left: 20%;
+                }
+                .lokalizacje-p{
+                    width: 155px;
+                    height: 36px;
+                    padding-top: 9%;
+                }
+                .telefon{
+                    margin-top: 9%;
+                }
+                .telefon-p{
+                    padding-top: 12%;
+                }
+                .mail{
+                    padding-top: 9%;
+                }
+                .adress-mail{
+                    padding-top: 12%;
+                }
+            }
+            .google-maps{
+                margin-top: 10%;
+                width: 33%;
+                float: left;
+            }
+        }
+    }
+}
